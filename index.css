@@ -1,16 +1,39 @@
-/* Tailwind directives are handled via index.html script for the preview */
-/* but kept here for professional build compatibility */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body { 
+    @apply font-sans bg-background text-secondary antialiased;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
 
 :root {
   color-scheme: dark;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-stone-700 rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-stone-600;
+}
+
+.glass-card {
+  background: rgba(42, 27, 10, 0.5);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(251, 191, 36, 0.1);
 }
