@@ -1,0 +1,16 @@
+/* Tailwind directives are handled via index.html script for the preview */
+/* but kept here for professional build compatibility */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
