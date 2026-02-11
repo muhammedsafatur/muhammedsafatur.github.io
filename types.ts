@@ -49,5 +49,5 @@ export interface Experience {
   company: string;
   description: LocalizedString;
   technologies: string[];
-  link: string;
+  link?: string;
 }
