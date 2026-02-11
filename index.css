@@ -4,7 +4,7 @@
 
 @layer base {
   body { 
-    @apply font-sans bg-background text-secondary antialiased;
+    @apply font-sans bg-background text-light antialiased;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -12,7 +12,7 @@
 }
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 /* Custom scrollbar */
@@ -25,15 +25,15 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-stone-700 rounded-lg;
+  @apply bg-slate-300 rounded-lg;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-stone-600;
+  @apply bg-slate-400;
 }
 
 .glass-card {
-  background: rgba(42, 27, 10, 0.5);
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba(251, 191, 36, 0.1);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(99, 102, 241, 0.1);
 }
