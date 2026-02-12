@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
     title: { en: 'Animal Adoption (Petship)', tr: 'Hayvan Sahiplendirme (Petship)' },
     description: {
       en: 'A full-stack digitalization platform for animal welfare. Architected with a .NET Core N-Layered Backend and PostgreSQL. Implemented secure JWT-based authentication and a scalable Angular frontend with optimized state management.',
-      tr: 'Hayvan refahı için geliştirilmiş full-stack dijitalleşme platformu. .NET Core N-Layered mimari ve PostgreSQL ile tasarlandı. Güvenli JWT tabanlı yetkilendirme ve optimize edilmiş state yönetimine sahip ölçeklenebilir Angular frontend uygulandı.'
+      tr: 'Hayvan sahiplendirmek için geliştirilmiş full-stack dijitalleşme platformu. .NET Core N-Katmanlı mimari ve PostgreSQL ile tasarlandı. Güvenli JWT tabanlı yetkilendirme ve optimize edilmiş state yönetimine sahip ölçeklenebilir Angular frontend uygulandı.'
     },
     technologies: ['.NET Core', 'Angular', 'PostgreSQL', 'Entity Framework', 'JWT'],
     imageUrl: '/petship.png',
