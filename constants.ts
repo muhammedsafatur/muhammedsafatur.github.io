@@ -92,11 +92,11 @@ export const EXPERIENCE: Experience[] = [
     date: '04.2025 — Present',
     role: { en: 'IT Specialist', tr: 'Bilgi İşlem Sorumlusu' },
     company: 'Akçağ Tekstil',
-    description: {
-      en: 'Leading IT infrastructure modernization and technical ecosystem management. Focusing on optimizing system reliability, network security, and streamlining digital workflows to enhance organizational efficiency.',
-      tr: 'Bilgi işlem altyapısının modernizasyonu ve teknik ekosistem yönetimine liderlik ediyorum. Sistem güvenilirliğini, ağ güvenliğini optimize etmeye ve kurumsal verimliliği artırmak için dijital iş akışlarını iyileştirmeye odaklanıyorum.'
-    },
-    technologies: ['Network Security', 'System Optimization', 'IT Infrastructure'],
+  description: {
+  en: 'Specialized in web application development, hardware maintenance, and system optimization. Focusing on building robust digital solutions, performing technical assembly and repairs, and enhancing overall system performance through software and hardware integration.',
+  tr: 'Web uygulama geliştirme, donanım bakımı ve sistem optimizasyonu üzerine uzmanlaşıyorum. Güçlü dijital çözümler üretmeye, teknik montaj ve tamir işlemlerini gerçekleştirmeye; yazılım ve donanım entegrasyonu ile sistem performansını artırmaya odaklanıyorum.'
+},
+technologies: ['Web Application Development', 'System Optimization', 'IT Solutions'],
   },
   {
     id: '1',
